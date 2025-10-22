@@ -1,2 +1,6 @@
-/*.js
+/global.js
+  Access-Control-Allow-Origin: *
+/home.js
+  Access-Control-Allow-Origin: *
+/about.js
   Access-Control-Allow-Origin: *
