@@ -4,5 +4,7 @@
 
 import gsap from 'gsap'
 import { initMarqueeAnimation } from './marquee.js'
+import { subnav } from '../home/index.js'
 
-initMarqueeAnimation()
+initMarqueeAnimation();
+subnav();

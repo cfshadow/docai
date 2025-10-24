@@ -2,7 +2,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
-  document.addEventListener("DOMContentLoaded", () => {
+  export function subnav() {
+    document.addEventListener("DOMContentLoaded", () => {
     if (window.innerWidth < 767) return;
 
     const subNav = document.querySelector(".sub_nav_wrapper");
@@ -22,3 +23,4 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
     });
   });
 
+  }
