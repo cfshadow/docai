@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack",
-    "dev": "webpack --watch --progress"
+    "dev": "webpack --watch --progress",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "author": "Qamar Aziz",
   "license": "ISC",
