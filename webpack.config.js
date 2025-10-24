@@ -12,7 +12,7 @@ module.exports = {
     filename: '[name].js',
     library: '[name]',
     libraryTarget: 'umd',
-    globalObject: 'this',
+    globalObject: 'window',
     umdNamedDefine: true,
     clean: true,
   },
